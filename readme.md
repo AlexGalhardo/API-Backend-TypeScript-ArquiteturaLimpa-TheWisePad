@@ -14,3 +14,11 @@ To run this project you will need to create a `.env` file at the root of your pr
 We believe this project can be used as a *reference implementation* of the **Clean Architecture** with Node.js and TypeScript.
 
 Copyright © 2022 theWiseDev
+
+## MongoDB 
+- Create collections:
+   - users
+   - notes
+
+## HTTP Requests
+- To use with insomnia, import file: <b>INSOMNIA_REQUESTS_THE_WISEPAD_CLEAN_ARCHITECTURE_API.json</b>

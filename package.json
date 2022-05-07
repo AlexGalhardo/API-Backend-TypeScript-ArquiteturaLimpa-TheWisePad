@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/main/server.js",
+    "dev": "ts-node-dev src/main/server.ts",
     "build": "rimraf dist && tsc -p tsconfig-build.json",
     "test:unit": "jest --passWithNoTests --watch --runInBand -c jest-unit.config.js",
     "test:integration": "jest --passWithNoTests --watch --runInBand -c jest-integration.config.js",
